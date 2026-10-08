@@ -1,0 +1,33 @@
+{
+  "name": "pi-activity-view",
+  "version": "0.1.0",
+  "description": "Display-only Pi extension: group tool calls, explain each run in plain language with cited evidence, prefill the next step.",
+  "keywords": [
+    "pi-package"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yishu-ziyu/pi-activity-view.git"
+  },
+  "homepage": "https://github.com/yishu-ziyu/pi-activity-view#readme",
+  "files": [
+    "index.ts",
+    "explain.ts",
+    "signals.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-agent-core": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  }
+}

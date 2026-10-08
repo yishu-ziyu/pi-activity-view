@@ -1,0 +1,12 @@
+{
+  "fps": 30,
+  "bpm": 120,
+  "beat": 15,
+  "duration": 210,
+  "headline": 0,
+  "panelIn": 30,
+  "sentences": [45, 52, 60, 67],
+  "links": [90, 105, 120, 135],
+  "push": 150,
+  "diff": 165
+}

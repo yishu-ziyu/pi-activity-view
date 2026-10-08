@@ -1,0 +1,6 @@
+probe/fixtures/
+probe/out/
+video/node_modules/
+video/out/
+video/src/screens.json
+video/public/*.wav

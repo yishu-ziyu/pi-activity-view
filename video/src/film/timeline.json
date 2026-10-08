@@ -1,0 +1,18 @@
+{
+  "fps": 30,
+  "bpm": 120,
+  "beat": 15,
+  "overlap": 12,
+  "scenes": {
+    "problem": { "start": 0, "len": 150 },
+    "fold": { "start": 150, "len": 180 },
+    "verify": { "start": 330, "len": 210 },
+    "decide": { "start": 540, "len": 120 },
+    "name": { "start": 660, "len": 120 }
+  },
+  "duration": 780,
+  "problem": { "headline": 4, "counters": 20, "pages": 105 },
+  "fold": { "turn": 0, "sweepStart": 30, "sweepEnd": 105, "pagesStat": 105 },
+  "decide": { "headline": 4, "panel": 20, "press": 75 },
+  "name": { "logo": 6, "type": 21, "tagline": 45, "fine": 60 }
+}
